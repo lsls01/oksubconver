@@ -1,0 +1,42 @@
+# Windows Download
+PROCESS-NAME,fdm.exe
+PROCESS-NAME,Folx.exe
+PROCESS-NAME,NetTransport.exe
+
+# bt
+PROCESS-NAME,Transmission.exe
+PROCESS-NAME,Transmission
+PROCESS-NAME,uTorrent.exe
+PROCESS-NAME,uTorrent
+PROCESS-NAME,WebTorrent.exe
+PROCESS-NAME,WebTorrent
+PROCESS-NAME,WebTorrent Helper.exe
+PROCESS-NAME,qbittorrent.exe
+PROCESS-NAME,qBittorrent
+PROCESS-NAME,aria2c.exe
+PROCESS-NAME,aria2c
+DOMAIN-SUFFIX,smtp
+URL-REGEX,(Subject|HELO|SMTP)
+URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
+URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
+URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
+
+# XunLei
+URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+PROCESS-NAME,DownloadService.exe
+PROCESS-NAME,DownloadService
+PROCESS-NAME,Thunder.exe
+PROCESS-NAME,Thunder
+
+# 360
+URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
+
+# Tencent Weiyun
+PROCESS-NAME,Weiyun.exe
+
+#Baidu disk
+PROCESS-NAME,baidunetdisk.exe
+PROCESS-NAME,BaiduNetdisk
+
+# Pikpak
+DOMAIN-SUFFIX,mypikpak.com
