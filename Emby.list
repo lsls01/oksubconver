@@ -1,26 +1,12 @@
-# 品云
-DOMAIN-SUFFIX,embyplus.club
-IP-CIDR,138.2.79.131/32
+# Client
+PROCESS-NAME,Filebox
 # 终点站
 DOMAIN-SUFFIX,emby.wtf
 # 卷毛鼠
 DOMAIN-SUFFIX,jmsooo.com
-IP-CIDR,104.21.234.87/32
-# POLO
-DOMAIN-SUFFIX,poloemby.xyz
-IP-CIDR,85.239.236.97/32
-# MisakaF
-DOMAIN-SUFFIX,misakaf.org
 # Mulgore-莫高雷
-IP-CIDR,202.61.255.248/32
 DOMAIN-SUFFIX,mulgore.net
-# Client
-PROCESS-NAME,mpvnet.exe
-PROCESS-NAME,TerminusPlayer.exe
-PROCESS-NAME,Terminus Player
-PROCESS-NAME,Emby
-PROCESS-NAME,Emby Theater
-PROCESS-NAME,Emby Theater Helper
-PROCESS-NAME,IINA
-PROCESS-NAME,com.miui.videoplayer
-PROCESS-NAME,com.mxtech.videoplayer.ad
+# TreeDiagram
+DOMAIN-SUFFIX,789.123456.al
+# 剧狗
+DOMAIN-SUFFIX,ju.dog
